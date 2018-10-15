@@ -9,7 +9,7 @@ const mentionPattern: RegExp = /<@!?[0-9]+>|@everyone|@here/gm;
 export default class EmulateCommand extends Command {
     readonly meta = {
         name: "say",
-        description: "Send a message"
+        description: "Echo a message"
     };
 
     readonly aliases = ["echo"];
