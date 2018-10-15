@@ -11,7 +11,7 @@ export default class SuspendCommand extends Command {
     };
 
     public async executed(context: CommandContext): Promise<void> {
-        await context.ok("<:internal:490724708837359628> Entering suspension state");
+        await context.ok(":tools: Entering suspension state");
         context.bot.suspended = true;
     }
 };

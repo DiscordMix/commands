@@ -1,4 +1,4 @@
-import {GuildMember, Message, RichEmbed} from "discord.js";
+import {GuildMember, Message, RichEmbed, Role} from "discord.js";
 import {Command, Argument, CommandContext, Utils, RestrictGroup, InternalArgType} from "forge";
 
 type WhoisArgs = {
@@ -26,8 +26,7 @@ export default class WhoisCommand extends Command {
     };
 
     public async executed(context: CommandContext, args: WhoisArgs): Promise<void> {
-        // TODO: Type
-        const roles = args.member.roles.array();
+        const roles: Role[] = args.member.roles.array();
 
         let finalRoles = roles.slice(1, 10).map((role) => `<@&${role.id}>`).join(" ");
 

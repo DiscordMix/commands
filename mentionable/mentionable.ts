@@ -20,14 +20,11 @@ export default class MentionableCommand extends Command {
         }
     ];
 
-    constructor() {
-        super();
-
-        // Move to readonly member
-        this.restrict.environment = ChatEnvironment.Guild;
-        this.restrict.specific = [RestrictGroup.ServerOwner];
-        this.restrict.selfPermissions = [Permission.ManageRoles];
-    }
+    readonly restrict: any = {
+        environment: ChatEnvironment.Guild,
+        specific: [RestrictGroup.ServerOwner],
+        selfPermissions: [Permission.ManageRoles]
+    };
 
     // TODO: Add support by id
     public async executed(context: CommandContext, args: MentionableArgs): Promise<void> {

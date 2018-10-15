@@ -23,12 +23,6 @@ export default class EmulateCommand extends Command {
         }
     ];
 
-    constructor() {
-        super();
-
-        //this.restrict.ownerOnly = true;
-    }
-
     public async executed(context: CommandContext, args: SayArgs): Promise<void> {
         let filteredMessage: string = args.message;
 
@@ -37,6 +31,6 @@ export default class EmulateCommand extends Command {
         }
 
         // TODO: Debugging
-        await context.message.channel.send(`${context.sender.tag} <:announcement:490726045880811531> ` + filteredMessage);
+        await context.message.channel.send(`${context.sender.tag} said ` + filteredMessage);
     }
 };
