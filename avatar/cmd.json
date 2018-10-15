@@ -1,4 +1,5 @@
 {
     "description": "Retrieve the avatar image of an user",
-    "author": "CloudRex <cloudrex@outlook.com>"
+    "author": "CloudRex <cloudrex@outlook.com>",
+    "version": "1.0.0"
 }

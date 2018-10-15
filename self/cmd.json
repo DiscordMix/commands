@@ -1,4 +1,5 @@
 {
     "description": "Manage the bot's details",
-    "author": "CloudRex <cloudrex@outlook.com>"
+    "author": "CloudRex <cloudrex@outlook.com>",
+    "version": "1.0.0"
 }

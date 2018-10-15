@@ -1,4 +1,5 @@
 {
     "description": "Test whether I can send messages in this channel",
-    "author": "CloudRex <cloudrex@outlook.com>"
+    "author": "CloudRex <cloudrex@outlook.com>",
+    "version": "1.0.0"
 }
