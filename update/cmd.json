@@ -1,0 +1,5 @@
+{
+    "description": "Pull changes from the git repository",
+    "author": "CloudRex <cloudrex@outlook.com>",
+    "version": "1.0.0"
+}
