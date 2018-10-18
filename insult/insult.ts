@@ -12,7 +12,7 @@ const insults: string[] = [
 	"{subject} lives in the sewers."
 ];
 
-const fillInsult: any = (subject, insult) => insult.replace("{subject}", `**${subject}**`);
+const fillInsult: any = (subject: any, insult: any) => insult.replace("{subject}", `**${subject}**`);
 
 type InsultArgs = {
     readonly member: GuildMember;
