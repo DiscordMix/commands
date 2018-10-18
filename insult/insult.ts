@@ -1,7 +1,7 @@
 import {Utils, Command, Argument, InternalArgType, CommandContext} from "@cloudrex/forge";
 import {GuildMember} from "discord.js";
 
-const insults = [
+const insults: string[] = [
 	"{subject} has magically turned a pile of poo.",
 	"{subject} is now officially known as no-one.",
 	"{subject} now works cleaning toilets.",
@@ -12,14 +12,14 @@ const insults = [
 	"{subject} lives in the sewers."
 ];
 
-const fillInsult = (subject, insult) => insult.replace("{subject}", `**${subject}**`);
+const fillInsult: any = (subject, insult) => insult.replace("{subject}", `**${subject}**`);
 
 type InsultArgs = {
     readonly member: GuildMember;
 }
 
 export default class Insult extends Command {
-    readonly meta = {
+    readonly meta: any = {
         name: "insult",
         description: "Insult someone"
     };
