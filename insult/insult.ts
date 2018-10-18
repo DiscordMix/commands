@@ -1,4 +1,4 @@
-import {Utils, Command, Argument, InternalArgType, CommandContext} from "forge";
+import {Utils, Command, Argument, InternalArgType, CommandContext} from "@cloudrex/forge";
 import {GuildMember} from "discord.js";
 
 const insults = [

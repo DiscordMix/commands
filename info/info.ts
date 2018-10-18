@@ -1,4 +1,4 @@
-import {Command, CommandContext, Utils} from "forge";
+import {Command, CommandContext, Utils} from "@cloudrex/forge";
 import {Emoji, RichEmbed} from "discord.js";
 
 // TODO: Bot should have a command to display info of itself, ex. uptime.

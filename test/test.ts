@@ -1,4 +1,4 @@
-import {Command, CommandContext, RestrictGroup} from "forge";
+import {Command, CommandContext, RestrictGroup} from "@cloudrex/forge";
 import {TextChannel, Permissions} from "discord.js";
 
 export default class TestCommand extends Command {

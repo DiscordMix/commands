@@ -1,5 +1,4 @@
-import {Command, CommandContext, RestrictGroup} from "forge";
-import {Argument, PrimitiveArgType} from "forge/dist";
+import {Command, CommandContext, RestrictGroup, Argument, PrimitiveArgType} from "@cloudrex/forge";
 
 type SelfArgs = {
     readonly property: SelfProperty;

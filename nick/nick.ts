@@ -1,4 +1,4 @@
-import {Argument, ChatEnvironment, Command, Permission, PrimitiveArgType, CommandContext} from "forge";
+import {Argument, ChatEnvironment, Command, Permission, PrimitiveArgType, CommandContext} from "@cloudrex/forge";
 
 type NickArgs = {
     readonly nickname: string;

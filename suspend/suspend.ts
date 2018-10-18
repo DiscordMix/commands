@@ -1,4 +1,4 @@
-import {Command, CommandContext, RestrictGroup} from "forge";
+import {Command, CommandContext, RestrictGroup} from "@cloudrex/forge";
 
 export default class SuspendCommand extends Command {
     readonly meta = {
