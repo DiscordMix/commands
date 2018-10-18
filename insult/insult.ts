@@ -9,7 +9,9 @@ const insults: string[] = [
 	"{subject}'s father was Hitler.",
 	"{subject} no u.",
 	"{subject} now works as a clown full-time.",
-	"{subject} lives in the sewers."
+    "{subject} lives in the sewers.",
+    "{subject} is no longer cool.",
+    "{subject} has been employed at the circus."
 ];
 
 const fillInsult: any = (subject: any, insult: any) => insult.replace("{subject}", `**${subject}**`);
